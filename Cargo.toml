@@ -2,5 +2,14 @@
 name = "trace"
 version = "0.1.0"
 edition = "2024"
+description  = "Trace remembers where you left off."
+
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"
+
 
 [dependencies]
